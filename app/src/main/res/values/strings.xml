@@ -1,0 +1,543 @@
+<resources>
+    <string name="app_name">IMU Census</string>
+
+    <string-array name="census_location">
+        <item>Urban</item>
+        <item>Rural</item>
+    </string-array>
+    <string-array name="ppc_working">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="itlb">
+        <item>None</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="checkconditions">
+        <item>None</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="maritalstatus">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced/Separated</item>
+        <item>Widowed</item>
+    </string-array>
+    <string name="footer">© 2016 Softorea Solutions. All rights reserved.</string>
+
+    <string-array name="class_toilet">
+        <item>Select Type</item>
+        <item>Layout</item>
+        <item>Plinth Level</item>
+        <item>Lintel-Beam Level</item>
+        <item>Roof Level</item>
+        <item>Finishing</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string-array name="boundary_wall">
+        <item>Select Type</item>
+        <item>Foundation</item>
+        <item>Wall construction</item>
+        <item>Plastering</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string-array name="boundary_wall_raise">
+        <item>Select Type</item>
+        <item>Started</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string-array name="grant_other">
+        <item>Select Type</item>
+        <item>Installed</item>
+        <item>Not Installed</item>
+
+    </string-array>
+
+    <string-array name="alternaativesource">
+        <item>None</item>
+        <item>Solar</item>
+        <item>UPS</item>
+        <item>Generator</item>
+        <item>Solar/UPS</item>
+        <item>Solar/Generator</item>
+        <item>UPS/Generator</item>
+        <item>Solar/UPS/Generator</item>
+
+    </string-array>
+
+    <string-array name="existnotexist">
+        <item>Exist</item>
+        <item>Not Exist</item>
+    </string-array>
+
+    <string-array name="infrastructure_options">
+        <item>None</item>
+        <item>Available/Functional</item>
+        <item>Available/NonFunctional</item>
+        <item>Not Available</item>
+    </string-array>
+
+    <string-array name="infrastructure_options2">
+        <item>None</item>
+        <item>Available</item>
+        <item>Available/Equipped</item>
+        <item>Available/NotEquipped</item>
+        <item>Available/Equipped/Functional</item>
+        <item>Available/Equipped/NonFunctional</item>
+        <item>Not Available</item>
+    </string-array>
+
+
+    <string-array name="teacherdesignation_options">
+        <item>None</item>
+        <item>Principal(B-20)</item>
+        <item>Principal(B-19)</item>
+        <item>Principal(B-18)</item>
+        <item>Vice Principal(B-18)</item>
+        <item>AT</item>
+        <item>CT</item>
+        <item>D.P.E</item>
+        <item>DM</item>
+        <item>Head Master/Mistress</item>
+        <item>IT Teacher</item>
+        <item>Senior IT Teacher</item>
+        <item>Librarian</item>
+        <item>PET</item>
+        <item>Principal</item>
+        <item>PSHT</item>
+        <item>PST</item>
+        <item>Qari/Qaria</item>
+        <item>SS</item>
+        <item>TT</item>
+        <item>Vice Principal</item>
+        <item>computer lab in-charge</item>
+        <item>SST</item>
+        <item>SST(Bio-Chemistry)</item>
+        <item>SST(Math-Physics)</item>
+        <item>SET</item>
+
+        <item>Senior Subject Specialist</item>
+        <item>Subject Specialist</item>
+        <item>Senior AT</item>
+        <item>Senior CT</item>
+        <item>Senior DM</item>
+        <item>Senior PET</item>
+        <item>Senior PST</item>
+        <item>Senior Qari</item>
+        <item>Senior TT</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="headoptions">
+        <item>None</item>
+        <item>AT</item>
+        <item>CT</item>
+        <item>D.P.E</item>
+        <item>DM</item>
+        <item>Head Master/Mistress</item>
+        <item>IT Teacher</item>
+        <item>Senior IT Teacher</item>
+        <item>Librarian</item>
+        <item>PET</item>
+        <item>Principal</item>
+        <item>PSHT</item>
+        <item>PST</item>
+        <item>Qari/Qaria</item>
+        <item>SS</item>
+        <item>TT</item>
+        <item>Vice Principal</item>
+        <item>computer lab in-charge</item>
+        <item>SST</item>
+        <item>SET</item>
+        <item>Senior AT</item>
+        <item>Senior CT</item>
+        <item>Senior DM</item>
+        <item>Senior PET</item>
+        <item>Senior PST</item>
+        <item>Senior Qari</item>
+        <item>Senior TT</item>
+    </string-array>
+
+
+    <string-array name="vacantpositions">
+        <item>None</item>
+        <item>AT</item>
+        <item>CT</item>
+        <item>D.P.E</item>
+        <item>DM</item>
+        <item>Head Master/Mistress</item>
+        <item>IT Teacher</item>
+        <item>Senior IT Teacher</item>
+        <item>Librarian</item>
+        <item>PET</item>
+        <item>Principal</item>
+        <item>PSHT</item>
+        <item>PST</item>
+        <item>Qari/Qaria</item>
+        <item>SS</item>
+        <item>TT</item>
+        <item>Vice Principal</item>
+        <item>computer lab in-charge</item>
+        <item>SST</item>
+        <item>SET</item>
+        <item>Senior AT</item>
+        <item>Senior CT</item>
+        <item>Senior DM</item>
+        <item>Senior PET</item>
+        <item>Senior PST</item>
+        <item>Senior Qari</item>
+        <item>Senior TT</item>
+    </string-array>
+
+
+    <string-array name="proxyteacherdesignation">
+        <item>None</item>
+        <item>AT</item>
+        <item>Chowkidar</item>
+        <item>CT</item>
+        <item>D.P.E</item>
+        <item>DM</item>
+        <item>Driver</item>
+        <item>Head Master/Mistress</item>
+        <item>Cook</item>
+        <item>Caller</item>
+        <item>Hostel Warden</item>
+        <item>Work Shop Attendant</item>
+        <item>IT Teacher</item>
+        <item>J/Clerk</item>
+        <item>Lab Assistant</item>
+        <item>Lab Attendant</item>
+        <item>Librarian</item>
+        <item>Mali</item>
+        <item>Naib Qasid</item>
+        <item>PET</item>
+        <item>Principal</item>
+        <item>PSHT</item>
+        <item>PST</item>
+        <item>Qari/Qaria</item>
+        <item>S/Clerk</item>
+        <item>DM</item>
+        <item>SS</item>
+        <item>Sweeper</item>
+        <item>TT</item>
+        <item>Vice Principal</item>
+        <item>Water Carrier</item>
+        <item>SST</item>
+        <item>SET</item>
+    </string-array>
+    <string-array name="nonteacherdesignation">
+        <item>None</item>
+        <item>Cook</item>
+        <item>Caller</item>
+        <item>Hostel Warden</item>
+        <item>Work Shop Attendant</item>
+        <item>Lab Assistant</item>
+        <item>Lab Attendant</item>
+        <item>Chowkidar</item>
+        <item>Driver</item>
+        <item>J/Clerk</item>
+        <item>Mali</item>
+        <item>Naib Qasid</item>
+        <item>S/Clerk</item>
+        <item>Store Keeper</item>
+        <item>Assistant Store Keeper</item>
+        <item>Sweeper</item>
+        <item>Water Carrier</item>
+        <item>Librarian</item>
+        <item>Bearer</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="varanda_options">
+        <item>None</item>
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+
+    <string-array name="htoffice">
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+    <string-array name="science_equipment">
+        <item>Adequate</item>
+        <item>Not Adequate</item>
+    </string-array>
+    <string-array name="illegal_occupation">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="grading">
+        <item>None</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="staff">
+        <item>Teaching</item>
+        <item>Non Teaching</item>
+    </string-array>
+
+    <string-array name="subjectlistt">
+        <item>English</item>
+        <item>Urdu</item>
+        <item>Islamiat</item>
+        <item>Pak Studies</item>
+        <item>History/Civics</item>
+        <item>Economics</item>
+        <item>Statistics</item>
+        <item>Pashto</item>
+        <item>Home Economics</item>
+        <item>Maths</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Biology</item>
+        <item>General</item>
+    </string-array>
+
+
+    <string-array name="typeofdisability">
+        <item>Partial visual</item>
+        <item>Partial hearing</item>
+        <item>Partial speech</item>
+        <item>Hand/arm</item>
+        <item>Leg/foot</item>
+    </string-array>
+
+    <string-array name="illegal_occupationtype">
+        <item>Wholly</item>
+        <item>Partially</item>
+    </string-array>
+
+    <string-array name="lab_establishby">
+        <item>None</item>
+        <item>Government</item>
+        <item>Private Firm</item>
+    </string-array>
+
+    <string-array name="uncoveredarea">
+        <item>None</item>
+        <item>Within Premises</item>
+        <item>Adjacent</item>
+        <item>Away from School</item>
+    </string-array>
+
+    <string-array name="illegal_occupation_occupiedby">
+        <item>None</item>
+        <item>School Staff</item>
+        <item>Private Person</item>
+        <item>Any Organization</item>
+        <item>Law Enforcement Agency</item>
+        <item>IDPs</item>
+        <item>Land Owner</item>
+    </string-array>
+    <string-array name="designationoptions">
+        <item>DEO</item>
+        <item>DDEO</item>
+        <item>SDEO</item>
+        <item>ASDEO</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="designationoptionss">
+        <item>None</item>
+        <item>DEO</item>
+        <item>DDEO</item>
+        <item>SDEO</item>
+        <item>ASDEO</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="ppcschool_level">
+        <item>Middle</item>
+        <item>High</item>
+        <item>H.Scy</item>
+        <item>Prof. College/Institute</item>
+    </string-array>
+
+    <string-array name="ppcschool_mediumofIns">
+        <item>Urdu</item>
+        <item>English</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="census_zone">
+        <item>Summer</item>
+        <item>Winter</item>
+    </string-array>
+
+    <string-array name="trainningattende">
+        <item>Trainer</item>
+        <item>Trainee</item>
+    </string-array>
+
+    <string-array name="gender_info">
+        <item>Boys</item>
+        <item>Girls</item>
+    </string-array>
+    <string name="gps"> Your GPS and Google Services should be enabled to proceed further, would you like to enable it now?</string>
+    />
+    <string-array name="gender_infoo">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="DistrictValues">
+        <item>ABBOTTABAD</item>
+        <item>BANNU</item>
+        <item>BATTAGRAM</item>
+        <item>BUNNER</item>
+        <item>Charsadda</item>
+        <item>Chitral</item>
+        <item>D.I.Khan</item>
+        <item>DIR BALA</item>
+        <item>DIR PAYAN</item>
+        <item>HANGU</item>
+        <item>HARIPUR</item>
+        <item>Karak</item>
+        <item>KOHAT</item>
+        <item>Kohistan</item>
+        <item>LAKKI</item>
+        <item>MALAKAND</item>
+        <item>MANSEHRA</item>
+        <item>MARDAN</item>
+        <item>Nowshera</item>
+        <item>PESHAWAR</item>
+        <item>SHANGLA</item>
+        <item>SWABI</item>
+        <item>SWAT</item>
+        <item>TANK</item>
+        <item>TORGHAR</item>
+    </string-array>
+
+    <string-array name="DistrictValuesTeacher">
+        <item>ABBOTTABAD</item>
+        <item>BANNU</item>
+        <item>BATTAGRAM</item>
+        <item>BUNNER</item>
+        <item>Charsadda</item>
+        <item>Chitral</item>
+        <item>D.I.Khan</item>
+        <item>DIR BALA</item>
+        <item>DIR PAYAN</item>
+        <item>HANGU</item>
+        <item>HARIPUR</item>
+        <item>Karak</item>
+        <item>KOHAT</item>
+        <item>Kohistan</item>
+        <item>LAKKI</item>
+        <item>MALAKAND</item>
+        <item>MANSEHRA</item>
+        <item>MARDAN</item>
+        <item>Nowshera</item>
+        <item>PESHAWAR</item>
+        <item>SHANGLA</item>
+        <item>SWABI</item>
+        <item>SWAT</item>
+        <item>TANK</item>
+        <item>TORGHAR</item>
+        <item>FATA</item>
+        <item>FR Region</item>
+    </string-array>
+
+    <string-array name="e_infra_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="administrative_options_two">
+        <item>None</item>
+        <item>EEF</item>
+        <item>DPO</item>
+        <item>Field Assistant</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="upgradationtype">
+        <item>Developmental</item>
+        <item>Non Developmental</item>
+    </string-array>
+
+    <string-array name="school_level">
+        <item>Mosque</item>
+        <item>Primary</item>
+        <item>Middle</item>
+        <item>High</item>
+        <item>Higher Secondary</item>
+    </string-array>
+
+    <string-array name="school_coordinates">
+        <item>X</item>
+        <item>Y</item>
+    </string-array>
+
+    <string-array name="medium_of_ins">
+        <item>Urdu</item>
+        <item>Pashto</item>
+        <item>English</item>
+        <item>Urdu and English</item>
+    </string-array>
+
+    <string-array name="school_presentstatus">
+        <item>Functional</item>
+        <item>Non Functional</item>
+        <item>Permanently Closed</item>
+        <item>Newly Established</item>
+        <item>Merged</item>
+    </string-array>
+
+    <string-array name="building_ownership">
+        <item>Govt</item>
+        <item>Donated</item>
+        <item>Rented</item>
+        <item>Shelterless</item>
+        <item>Adjusted</item>
+
+    </string-array>
+
+    <string-array name="school_status">
+        <item>Open</item>
+        <item>Closed</item>
+    </string-array>
+    <string-array name="closed_status">
+        <item>Permanent</item>
+        <item>Temporary</item>
+    </string-array>
+    <string-array name="permanent_reason">
+        <item>Non-Functional</item>
+        <item>Illegally Occupied</item>
+    </string-array>
+    <string-array name="occupiedby">
+        <item>Individual</item>
+        <item>Organization</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="temporeason">
+        <item>Student and Staff Absent</item>
+        <item>Staff Absent</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="visittype">
+        <item></item>
+    </string-array>
+</resources>

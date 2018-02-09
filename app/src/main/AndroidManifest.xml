@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.softorea.schoolsen">
+
+    <uses-feature android:name="android.hardware.camera"></uses-feature>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".lists.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logocensus"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+
+
+        <activity android:name=".lists.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".m_monthly.M_ASDEO_Information"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_School_Status"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_Building_Occupation"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_HeadInfo"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_HumanResourceTeacherPresence"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_TeacherPresenceList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_TeacherPresence"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_ProxyTeacher"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_ProxyTeacherList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_TeacherAppointedBy"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_TeacherAppointedByList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_Enrollment_AttendanceGap"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_Enrollment_AttendanceMain"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_SchoolVisits"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_SchoolVisitList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_SchoolFunctioning"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_ConditionalGrant"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_VacantPositions"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_VacantPositionsList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".b_annual.B_SchoolArea"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".b_annual.B_Construction"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".b_annual.B_BuildingCondition"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".b_annual.B_IT_LabExists"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".b_annual.B_Commodities"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".b_annual.B_ParentTeacherCouncil"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".b_annual.B_Stipend"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".b_annual.B_InfraStructure"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".b_annual.B_TeacherGuides"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".b_annual.B_Cleanliness"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentAgeBoys"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollementAgeBoysMain"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentAgeGirlsMain"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentAgeGirls"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionMain"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionForm"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionSix"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionSeven"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionEight"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionNine"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionNineArts"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionNineCompScience"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionNineScience"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionTen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionTenArts"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionTenCompScience"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentByGroupSectionTenScience"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_OtherFacilities"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_SpecialBoysMain"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_SpecialBoysForm"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_SpecialGirlsMain"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_SpecialGirlsForm"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_EnrollmentElevenTwelve"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_Furniture"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_ProvisionFreeBooksMain"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_ProvisionFreeBooks"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_SecurityMeasures"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".lists.MBY_SchoolInformation"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".lists.Roster_List" />
+        <activity
+            android:name=".m_monthly.M_SanctionedPostList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_SanctionedPost"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_SanctionedPostNonteachingList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_SanctionedPostNonTeaching"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".lists.MainScreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_TrainingRecord"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_NonTeacherPresenceList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_HumanResourceNonTeacherPresence"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.MonitorSignature"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".lists.FirstScreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".lists.SettingActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".lists.MainActivity" />
+        <activity
+            android:name=".m_monthly.NonTeacherPresence"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.MoreInfo"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.FinalRemarks"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.HeadSignature"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".lists.FormSaving"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".lists.FinalizedForms"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".lists.UploadedForms"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".lists.SubjectActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.Y_FTPSubjectLists"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_ProxyTeacherUpdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".m_monthly.TeacherWebserviceMainList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".m_monthly.Teacherwebservicemainlistupdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".m_monthly.NonTeacherWebserviceMainList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".m_monthly.NonTeacherwebservicemainlistupdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".m_monthly.M_VacantPositionsUpdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".m_monthly.M_TeacherAppointedByUpdate" />
+        <activity
+            android:name=".m_monthly.M_SchoolVisitsUpdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_SanctionedPostUpdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_SanctionedPostNonTeachingUpdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_HumanResourceNonTeacherPresenceUpdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_HumanResourceTeacherPresenceUpdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_TrainingRecordUpdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_TrainingRecordList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_NewGrant1"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_NewGrant2"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_NewGrant3"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_NewGrant4"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_NewGrant5"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_NewGrant6"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_NewGrant7"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".m_monthly.M_NewGrant8"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".y_annual.CompleteForm"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".m_monthly.M_Assembly"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".dialogs.M_TeacherPresenceList"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <activity
+            android:name=".dialogs.M_TeacherPresenceListNew"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <activity
+            android:name=".dialogs.M_TrainingRecordList"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <activity
+            android:name=".dialogs.M_NonTeacherPresenceList"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <activity
+            android:name=".dialogs.M_NonTeacherPresenceListNew"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <activity
+            android:name=".dialogs.M_ProxyTeacherList"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <activity
+            android:name=".dialogs.M_TeacherAppointedByList"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <activity
+            android:name=".dialogs.M_SchoolVisitList"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+
+        <activity
+            android:name=".dialogs.M_VacantPositionsList"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <activity
+            android:name=".dialogs.M_SanctionedPostList"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <activity
+            android:name=".dialogs.M_SanctionedPostNonteachingList"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <activity
+            android:name=".gcsschools.MBY_SchoolInformation"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.M_School_Status"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".gcsschools.M_Building_Occupation"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".gcsschools.B_InfraStructure"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".gcsschools.M_HeadInfo"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".gcsschools.M_TeacherDetails"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".gcsschools.M_SchoolVisitList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.M_SchoolVisitsUpdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".gcsschools.M_SchoolVisits"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+
+        <activity
+            android:name=".gcsschools.M_Enrollment_AttendanceGap"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.M_Enrollment_AttendanceGapUnadmitted"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.M_Enrollment_AttendanceGapKachi"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.M_Enrollment_AttendanceGapOne"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.M_Enrollment_AttendanceGapTwo"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.M_Enrollment_AttendanceGapThree"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.M_Enrollment_AttendanceGapFour"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.M_Enrollment_AttendanceGapFive"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".gcsschools.HeadSignature"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.GcsteacherList"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".gcsschools.GcsTeacherUpdate"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".gcsschools.FormSavingGcs"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".gcsschools.FinalRemarks"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+
+        <service
+            android:name=".lists.FormService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

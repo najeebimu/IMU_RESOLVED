@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/listbg"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Name:"
+                android:textColor="@color/textall"
+                android:textSize="15sp"
+                android:textStyle="bold"  />
+
+            <TextView
+                android:id="@+id/teacher_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+
+                android:text="Laiisdad"
+                android:textColor="@color/textall"
+                android:textSize="15sp"
+                android:textStyle="bold"  />
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E6E7E6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CNIC:"
+                android:textColor="@color/textall"
+                android:textSize="15sp"
+                android:textStyle="bold"  />
+
+            <TextView
+                android:id="@+id/teacher_cnic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1.3"
+                android:text="2342532432424"
+                android:textColor="@color/textall"
+                android:textSize="15sp"
+                android:textStyle="bold"  />
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E6E7E6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Personal No:"
+                android:textColor="@color/textall"
+                android:textSize="15sp"
+                android:textStyle="bold"  />
+
+            <TextView
+                android:id="@+id/teacher_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:text="342542432424"
+                android:textColor="@color/textall"
+                android:textSize="15sp"
+                android:textStyle="bold"  />
+        </LinearLayout>
+        <View
+            android:layout_marginTop="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E6E7E6" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:text="Designation :"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:text=""
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Status:"
+                android:textColor="@color/textall"
+                android:textSize="15sp"
+                android:textStyle="bold"  />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:text="Absent"
+                android:textColor="@color/textall"
+                android:textSize="15sp"
+                android:textStyle="bold"  />
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E6E7E6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:text="Status Details:"
+                android:textColor="@color/textall"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/statusdetails"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:text=""
+                android:textColor="@color/textall"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="90dp"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="35dp"
+        android:src="@drawable/edit_button"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="15dp"
+        android:src="@drawable/trash_icon"
+        android:visibility="gone" />
+
+</RelativeLayout>

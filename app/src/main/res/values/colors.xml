@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#900</color>
+    <color name="titlebelowbar">#c3922e</color>
+    <color name="titlebarbackground">#eff8fd</color>
+    <color name="basicgreen">#006837</color>
+    <color name="white">#ECF1EF</color>
+    <color name="gray">#D5DBD8</color>
+    <color name="textall">#393B3A</color>
+</resources>
